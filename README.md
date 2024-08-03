@@ -2,6 +2,10 @@
 
 This is a simple Recipe Finder application built with React that allows users to search for recipes by ingredients. The application fetches recipe data from the Edamam API and displays it in a user-friendly format.
 
+## Demo
+
+Check out the live demo of the application [here](https://dancing-beignet-5dbeac.netlify.app/).
+
 ## Features
 
 - **Search Recipes**: Users can search for recipes by entering ingredients in the search bar.
