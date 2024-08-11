@@ -24,6 +24,34 @@ video {
   flex-direction: column;
 }
 
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.6); /* Полупрозрачный фон для навигации */
+  padding: 10px 20px;
+  position: fixed; /* Фиксированное положение */
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1; /* Убедитесь, что навигация находится над видео */
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  margin: 0 15px;
+  padding: 8px 16px;
+  border-radius: 24px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.nav a:hover {
+  background-color: rgba(255, 255, 255, 0.2); /* Легкий фон при наведении */
+  color: #dbecc4; /* Цвет текста при наведении */
+}
+
 .search {
   width: 90%;
   max-width: 600px;
@@ -40,6 +68,20 @@ video {
 .search:focus {
   outline: none;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+.about-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 35%;
+  margin-right: 40px;
 }
 
 .list {
